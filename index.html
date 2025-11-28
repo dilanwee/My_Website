@@ -1,35 +1,76 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Hobby: Rugby and Biking</title>
-        <style>
-            body {
-                font-family: Arial;
-                margin: 30px;
-            }
-              .card {
-            background: blue;
+<head>
+    <title>Dilans Website</title>
+    <style>
+        body {
+            font-family: monospace;
+            margin: 30px;
+            background: #f2f2f2;
+        }
+
+        /* Layout container */
+        .layout {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        /* Main card */
+        .card {
+            background: grey;
             padding: 20px;
             border-radius: 10px;
             max-width: 600px;
-            
-            
-            }
-            .card img {
-                max-width: 100%; 
-                height: auto;
-                display: block;
-                margin-top: 10px;
-            }
-        </style>
-    </head>
-    <body>
+            color: white;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        /* Right side boxes */
+        .side-box {
+            background: #d0d0d0;
+            padding: 15px;
+            border-radius: 10px;
+            width: 220px;
+        }
+
+        .side-column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layout">
+        
         <div class="card">
-            <h1>Rugby and Biking!!</h1>
-            <p>I love playing rugby with my mates and riding my bike</p>
-            <p>In this website I'm going!! to describe my different hobbies and aspirations</p>
+            <h1>Dilans Website</h1>
+            <p>I enjoy playing rugby and mountain biking</p>
+            <p>In this website I'm going to describe my different hobbies and aspirations</p>
             <img src="/bike2.png" alt="Rugby and Biking">
         </div>
-    </body>
+
+        <div class="side-column">
+            <div class="side-box">
+                <h3>About Me</h3>
+                <p>I'm 14 and I love sports, especially MTB and rugby.</p>
+            </div>
+
+            <div class="side-box">
+                <h3>My Goals</h3>
+                <p>Get better at biking, learn jumps, and play for a strong rugby team.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
 </html>
+
 

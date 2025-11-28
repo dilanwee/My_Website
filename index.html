@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dilans Website</title>
+    <title>Dilan's Bike Shop</title>
     <style>
         body {
             font-family: monospace;
             margin: 30px;
-            background: #f2f2f2;
+            background: black;
         }
 
-        /* Layout container */
         .layout {
             display: flex;
             gap: 20px;
             align-items: flex-start;
         }
 
-        /* Main card */
         .card {
             background: grey;
             padding: 20px;
@@ -31,12 +29,12 @@
             margin-top: 10px;
         }
 
-        /* Right side boxes */
         .side-box {
-            background: #d0d0d0;
+            background: lightslategray;
             padding: 15px;
             border-radius: 10px;
             width: 220px;
+            color: white;
         }
 
         .side-column {
@@ -44,33 +42,48 @@
             flex-direction: column;
             gap: 20px;
         }
+
+        .product-list {
+            margin-top: 20px;
+        }
+
+        .product {
+            background: #4b4b4b;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 
 <body>
     <div class="layout">
-        
+
         <div class="card">
-            <h1>Dilans Website</h1>
-            <p>I enjoy playing rugby and mountain biking</p>
-            <p>In this website I'm going to describe my different hobbies and aspirations</p>
-            <img src="/bike2.png" alt="Rugby and Biking">
-        </div>
+            <h1>Dilan's Bike Shop</h1>
+            <p>Welcome to the ultimate shop for mountain biking gear and accessories.</p>
+            <p>We offer high‑quality biking equipment for riders of all skill levels.</p>
+            <img src="/bike2.png" alt="Mountain Biking Gear">
 
-        <div class="side-column">
-            <div class="side-box">
-                <h3>About Me</h3>
-                <p>I'm 14 and I love sports, especially MTB and rugby.</p>
-            </div>
+            <div class="product-list">
+                <h2>Featured Products</h2>
 
-            <div class="side-box">
-                <h3>My Goals</h3>
-                <p>Get better at biking, learn jumps, and play for a strong rugby team.</p>
-            </div>
-        </div>
+                <div class="product">
+                    <h3>MTB Helmet</h3>
+                    <p>Durable, lightweight helmet for maximum protection.</p>
+                    <img src="/helmet.png" alt="MTB Helmet">
+                </div> 
+            
 
-    </div>
 </body>
 </html>
 
 
+  
